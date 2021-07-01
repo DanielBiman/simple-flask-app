@@ -3,6 +3,7 @@
 {% from "/components/jumbotron/jumbotron.html" import JumbotronComponent %}
 {% from "/components/about/index.html" import AboutComponent %}
 {% from "/components/projects/index.html" import ProjectsListingComponent %}
+{% from "/components/background/index.html" import Background %}
 
 
 {% block title %}
@@ -13,6 +14,7 @@
 {{ JumbotronComponent(SOCIAL_LINKS)}}
    <div class="container">
     {{AboutComponent()}}
+    {{Background()}}
     {{ProjectsListingComponent(MY_PROJECTS)}}
    </div>
 {% endblock %}

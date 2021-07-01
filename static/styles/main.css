@@ -49,7 +49,7 @@ h1{
 }
 .jumbotron {
     background-color:var(--main-bg-color);
-    height:100vh;
+    height:50vh;
 }
 
 .card{

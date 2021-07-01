@@ -1,8 +1,8 @@
-APP_NAME="Ubeyt Demir"
+APP_NAME="Daniel Biman"
 
 SOCIAL_LINKS = [{
-    "name":"Twitter",
-    "link":"https://twitter.com",
+    "name":"Github",
+    "link":"https://github.com/DanielBiman",
     "icon":"""<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='currentColor' class='bi bi-twitter' viewBox='0 0 16 16'>
   <path d='M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z'/>
 </svg>"""
@@ -17,10 +17,9 @@ SOCIAL_LINKS = [{
 MY_PROJECTS = [
     {
         "title":"Project A",
-        "description":"Project A description",
-        "cover":"https://analyticsindiamag.com/wp-content/uploads/2021/04/aim_openCV.png",
-        "liveLink":"https://github.com",
-        "githubLink":"https://github.com"
+        "description":"A CNN sign lagnuage classifier of the live webcam for playing Hangman.",
+        "cover":"http://www.cultureready.org/sites/default/files/2019-03/ASL%20Alphabet.jpg",
+        "githubLink":"https://github.com/AInimaT1on/AInimaT1on.git"
     },
      {
         "title":"Project B",
@@ -38,7 +37,9 @@ MY_PROJECTS = [
     }
 ]
 
-MENU_ITEMS= [{"label":"About","link":"#about"},{"label":"Projects","link":"#projects"},{"label":"Dashboard","link":"/dashboard"}]
+MENU_ITEMS= [
+    {"label":"About","link":"#about"},{"label":"Projects","link":"#projects"},
+    {"label":"Dashboard","link":"/dashboard"},{"label":"Background","link":"/background"}]
 
 
 DASHBOARD_MENU= [
